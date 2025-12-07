@@ -1,0 +1,268 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0E1117;  
+    color: #EAEAEA; 
+}
+
+.block-container {
+    padding-top: 20px !important;
+}
+
+
+.header-container {
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+.header-title {
+    color: #4BA3C3; 
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.header-subtitle {
+    color: #A5A5A5;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+
+.section-card {
+    background-color: #1B1E24; /* Dark card */
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    border: 1px solid #242830;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.35);
+}
+
+.section-card h3 {
+    color: #4BA3C3;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+div.stButton > button:first-child {
+    background-color: #2E5A9C;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 18px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+div.stButton > button:hover {
+    background-color: #1c4b92;
+}
+
+
+.success-card {
+    background-color: #123524; /* Deep green fintech */
+    border-left: 6px solid #00A86B;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #C8FADC;
+    box-shadow: 0px 3px 10px rgba(0, 255, 150, 0.15);
+}
+
+.success-card h3 {
+    color: #00D17A;
+    margin-bottom: 8px;
+}
+
+
+.error-card {
+    background-color: #3A0D0D; /* Deep dark red */
+    border-left: 6px solid #D24545;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #F8C5C5;
+    box-shadow: 0px 3px 10px rgba(255, 0, 0, 0.15);
+}
+
+.error-card h3 {
+    color: #FF6B6B;
+    margin-bottom: 8px;
+}
+
+
+input, textarea, select {
+    background-color: #11141A !important;
+    color: #FFFFFF !important;
+    border-radius: 6px !important;
+    border: 1px solid #2C313A !important;
+}
+
+div[data-baseweb="input"] > div {
+    background-color: #11141A !important;
+    border-radius: 6px !important;
+}
+
+
+.css-1dp5vir, .css-14xtw13 {
+    color: #EAEAEA !important;
+}
+
+
+.risk-image {
+    display: block;
+    margin: 20px auto 10px auto;
+    width: 65%;
+    border-radius: 12px;
+    opacity: 0.92;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+
+img[src="risk_image.png"] {
+    display: block;
+    margin: 0 auto;                         
+
+    width: 92% !important;                  
+    max-width: 1150px !important;           
+
+    border-radius: 14px;                    
+    box-shadow:
+        0 0 20px rgba(0, 0, 0, 0.45),
+        0 0 50px rgba(0, 0, 0, 0.25);       
+
+    margin-top: -10px !important;           
+    margin-bottom: 0px !important;          
+}
+
+.description-card {
+    margin-top: 10px !important;
+    background: rgba(255, 255, 255, 0.03);       
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 18px;
+    padding: 20px 60px;                           
+    line-height: 1.4;                           
+    max-width: 1200px;                           
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin: 40px auto 20px auto;                 
+    box-shadow:
+        0 0 25px rgba(0, 0, 0, 0.5),
+        0 0 70px rgba(0, 0, 0, 0.25);
+
+    color: #F0F0F0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+div[role="radiogroup"] {
+    margin-top: 20px;
+}
+
+
+div[role="radiogroup"] > label {
+    display: flex;                         
+    align-items: center;                   
+    gap: 12px;                             
+
+    width: 95%;                            
+    padding: 18px 20px;                    
+    margin: 14px 0;                        
+
+    background: #1A1D23;                   
+    border-radius: 12px;
+    border: 1px solid #2A2E36;
+
+    cursor: pointer;
+    color: #E5E5E5;
+    font-size: 17px;
+    font-weight: 500;
+
+    transition: 0.25s ease;
+}
+
+
+div[role="radiogroup"] > label:hover {
+    background: rgba(46, 90, 156, 0.22);
+    border-color: rgba(46, 90, 156, 0.50);
+    transform: translateX(4px);
+}
+
+
+div[role="radiogroup"] > label[data-selected="true"] {
+    background: rgba(46, 90, 156, 0.38);   
+    color: #BFD4F7 !important;
+    font-weight: 600;
+
+    transform: translateX(4px);
+}
+
+
+.stRadio [data-testid="stMarkdownContainer"] > span {
+    display: none !important;
+}
+div[role="radiogroup"] input[type="radio"] {
+    display: none !important;
+}
+div[role="radiogroup"] label > div:first-child {
+    display: none !important;
+}
+
+.sidebar-title-fintech {
+    font-size: 22px;
+    font-weight: 600;
+    color: #EAEAEA;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sidebar-underline {
+    width: 45px;
+    height: 3px;
+    background-color: #2E5A9C; 
+    border-radius: 2px;
+    margin-top: 4px;
+}
+div[data-baseweb="input"] button {
+    background-color: #2E5A9C !important;   
+    color: white !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 0 10px !important;
+    transition: 0.2s ease;
+}
+
+/* Hover effect */
+div[data-baseweb="input"] button:hover {
+    background-color: #3E6EC0 !important;   
+}
+
+
+div[data-baseweb="input"] input {
+    border-color: #2E5A9C !important;
+}
+
+div.stButton > button {
+    background-color: #2E5A9C !important;   
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 12px 28px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+
+div.stButton > button:hover {
+    background-color: rgba(46, 90, 156, 0.25) !important;
+    color: #E0EAFF !important;              
+    transform: translateY(-2px);
+    border: 1px solid rgba(46, 90, 156, 0.40) !important;
+}
