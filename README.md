@@ -1,6 +1,6 @@
 #  CREDIT RISK PREDICTION  
 ### Machine Learning Project — Bankruptcy & Loan Default Risk Assessment  
-**By Eve Giamminoni**
+**By Eve Giamminonni**
 
 ---
 
